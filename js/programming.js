@@ -2,6 +2,12 @@ import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs
 const swiperPython = document.getElementById("swiper__python");
 const videosPython = [
   {
+    id: 0,
+    titulo: "Curso Python 3 desde cero #1",
+    url: window.location.href + "/img/PYTHON 0.jpg",
+    urlVideo: "https://www.youtube.com/watch?v=DAdRO6ByBoU",
+  },
+  {
     id: 1,
     titulo: "Python desde Cero Básico",
     url: window.location.href + "/img/Python1.jpg",
